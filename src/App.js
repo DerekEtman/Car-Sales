@@ -18,12 +18,15 @@ const App = props => {
 
   const removeFeature = feature => {
     // dispatch an action here to remove an item
+    props.RemoveExistingFeature(feature);
+    
   };
 
   const addFeature = feature => {
     // dipsatch an action here to add an item
     // console.log("addFeature: ", item);
-    AddNewFeature(feature);
+    props.AddNewFeature(feature);
+    // console.log(props.AddNewFeature)
   };
 
   console.log( "app props: ", props.car)
