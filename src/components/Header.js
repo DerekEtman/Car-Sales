@@ -1,6 +1,9 @@
 import React from 'react';
 
 const Header = props => {
+
+  const { car } = props.car
+  // console.log("Car Header: ", props.car)
   return (
     <>
       <figure className="image is-128x128">
