@@ -16,13 +16,14 @@ const App = props => {
   //  const [newCar, setNewCar] = useState({});
   //  const [deleteFeature, setDeleteFeature] = useState(false);
 
-  const removeFeature = item => {
+  const removeFeature = feature => {
     // dispatch an action here to remove an item
   };
 
-  const addFeature = item => {
+  const addFeature = feature => {
     // dipsatch an action here to add an item
-    props.addNewFeature(item);
+    // console.log("addFeature: ", item);
+    AddNewFeature(feature);
   };
 
   console.log( "app props: ", props.car)

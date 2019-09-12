@@ -4,7 +4,7 @@ import App from './App';
 
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import { featureReducer } from './reducers/CarFeatures';
+import  {featureReducer}  from './reducers/CarFeatures';
 
 
 import 'bulma/css/bulma.css';
